@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registration form</title>
+</head>
+<body>
+	<header>
+		<h1 >Registration Form: Dance Club</h1>
+		
+	</header>
+	<main>
+		<form>
+			<table  border="3px" cellspacing="2px" cellpadding="5px">
+				<tr>
+            <td> <label for="fname"><b>Name:</b></label></td>
+            <td> <input type="text" id="fname" name="fname"></td>
+         </tr>
+         <tr>
+             <td><b>IC No:</b></td>
+             <td>
+             <input type="number" id="name1" name="name" >-
+             <input type="number" id="name1" name="name" >-
+             <input type="number" id="name1" name="name" ></td>
+         </tr>
+         <tr>
+         	<td><b>Address:</b></td>
+         	<td><textarea rows="8"  cols="160" name="address1"></textarea>
+         	
+         </tr>
+         <tr>
+             <td><p><b>Gender:</b></p></td>
+             <td><input type="radio" id="male" name="fav_language" value="Male">
+             <label for="male">Male</label>
+             <input type="radio" id="female" name="fav_language" value="Female">
+             <label for="female">Female</label></td>
+         </tr>
+         <tr>
+             <td><p><b>Dance Type:</b></p></td>
+             <td><input type="checkbox" id="zapin" name="zapin" >
+             <label for="zapin"> Zapin</label>
+             <input type="checkbox" id="joget" name="joget" >
+             <label for="joget"> Joget</label>
+             <input type="checkbox" id="Inang" name="Inang" >
+             <label for="Inang"> Inang</label>
+             <input type="checkbox" id="Lion Dance" name="Lion Dance" >
+             <label for="Lion Dance">Lion Dance</label><br>
+         </td>
+     </tr>
+     <tr>
+             <td><b>Competition:</b></td>
+             <td><select name="competition" size="3" >
+               <option value="0">State Level</option>
+               <option value="1">National Level</option>
+               <option value="2">State International Level</option>
+
+           </select>
+           </td>
+            </tr>
+             <tr>
+             <td><b>Nationality:</b></td>
+             <td><select name="nationality" >
+               <option value="0">-please select</option>
+               <option value="1">Indian</option>
+               <option value="2">Others</option>
+
+           </select>
+           </td>
+            </tr>
+              
+            <tr>
+           <td><b>Password:</b></td>
+             <td><input type="password" id="pwd" name="pwd"></td><br>
+         </tr>
+         </table>
+         <footer>
+         <tr>
+             <td><input type="submit" value="Register Me"></td>
+             <button>Cancel</button>
+</tr>
+</footer>
+</form>
+	</main>
+</body>	
